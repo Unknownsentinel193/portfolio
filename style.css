@@ -181,6 +181,29 @@ section span a:hover {
   color: white;
 }
 
+footer{
+  font-size: 16px;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 1s;
+  position: absolute;
+  left: 85%;
+  top: 90%;
+}
+
+footer a{
+  text-decoration: none;
+  color: #0ef;
+  transition: 1s ease;
+  font-weight: 700;
+  
+}
+
+footer a:hover{
+  color: #fff;
+  text-shadow: 0 0 15px #0ef;
+}
+
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
